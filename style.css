@@ -67,7 +67,13 @@ header nav ul li a:hover {
 	background-color: #f3f3f3;
 }
 
+header nav ul li a:active {
+	background-color: #000;
+	color: #FFF;
+}
+
 .content {
+
 	width: 100%;
 	margin-top: 150px;
 	display: flex;
@@ -101,6 +107,10 @@ main {
 
 .news:hover {
 	background-color: #f3f3f3;
+}
+
+.news:active {
+	background-color: grey;
 }
 
 .img {
@@ -167,9 +177,11 @@ main {
 .ul li {
 	list-style: none;
 	padding: 10px 0px;
+	width: auto;
 }
 
 .ul li a {
+	cursor: pointer;
 	text-decoration: none;
 	color: black;
 	padding: 5px 10px;
@@ -181,8 +193,14 @@ main {
 	background-color: #f3f3f3;
 }
 
+.ul li a:active {
+	background-color: #000;
+	color: #FFF;
+}
 
-
+.hide {
+	display: none;
+}
 
 
 @media (max-width: 1720px)  {
@@ -228,6 +246,9 @@ main {
 		font-size: 16px;
 		padding: 5px 10px
 	}
+	.hide {
+	display: none;
+	}
 }
 
 @media (max-width: 1475px)  {
@@ -253,6 +274,9 @@ main {
 	}
 	.logo {
 		margin-left: 100px;
+	}
+	.hide {
+	display: none;
 	}
 }
  
@@ -283,6 +307,9 @@ main {
 	}
 	header nav ul li {
 		margin: 10px;
+	}
+	.hide {
+	display: none;
 	}
 }
 
@@ -315,6 +342,9 @@ main {
 	}
 	.logo {
 		margin-left: 25px;
+	}
+	.hide {
+	display: none;
 	}
 }
 
