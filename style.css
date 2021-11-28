@@ -16,7 +16,6 @@ header {
 	align-items: center;
 	justify-content: space-between;
 	width: 100%;
-	max-width: 1920px;
 	background-color: #FFF;
 	height: 80px;
 
@@ -77,7 +76,7 @@ header nav ul li a:hover {
 }
 
 main {
-	width: 80%;
+	width: 85%;
 	max-width: 1550px;
 	display: flex;
 }
