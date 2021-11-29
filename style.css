@@ -109,10 +109,6 @@ main {
 	background-color: #f3f3f3;
 }
 
-.news:active {
-	background-color: grey;
-}
-
 .img {
 	margin: 10px;
 	height: 250px;
