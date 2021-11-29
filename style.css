@@ -24,7 +24,7 @@ header {
 
 .logo {
 	margin-left: 280px;
-	z-index: 3;
+	z-index: 4;
 }
 
 .logo a {
@@ -277,26 +277,28 @@ main {
 		height: 13.5vw;
 	}
 	/*for category*/
-	.filter {
-		display: none;
-		position: relative;
-		top: 50px
-	}
 	.category {
 		position: relative;
 		top: -100px;
 
 	}
-
 	.category h3 {
 		cursor: pointer;
 	}
 
+	.filter {
+		display: none;
+		position: relative;
+
+
+	}
+	
+
+	
+
 	.rite-side {
 		position: absolute;
-		z-index: 3;
-		transition: top 2s ease;
-
+		z-index: 2;
 	}
 
 	.left-side {
@@ -358,7 +360,7 @@ main {
         top: 0;
         right: 0;
         left: 0;
-        z-index: 2;
+        z-index: 3;
         flex-direction: column;
         justify-content: center;
         align-items: center;
