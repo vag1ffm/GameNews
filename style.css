@@ -19,10 +19,12 @@ header {
 	background-color: #FFF;
 	height: 80px;
 
+
 }
 
 .logo {
 	margin-left: 280px;
+	z-index: 3;
 }
 
 .logo a {
@@ -36,6 +38,18 @@ header {
 	
 }
 
+nav .openMenu {
+    font-size: 2rem;
+    margin: 20px;
+    display: none;
+    cursor: pointer;
+}
+
+nav .mainMenu .closeMenu , .icons i {
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+}
 
 header nav {
 	display: flex;
@@ -249,8 +263,11 @@ main {
 }
 
 @media (max-width: 1475px)  {
+	/* for foto */
 	.news {
 		height: 550px;
+		flex-direction: column;
+
 	}
 	.img {
 		height: 13.5vw;
@@ -259,13 +276,36 @@ main {
 	.img img {
 		height: 13.5vw;
 	}
+	/*for category*/
+	.filter {
+		display: none;
+		position: relative;
+		top: 50px
+	}
+	.category {
+		position: relative;
+		top: -100px;
+
+	}
+
+	.category h3 {
+		cursor: pointer;
+	}
 
 	.rite-side {
-		display: none;
+		position: absolute;
+		z-index: 3;
+		transition: top 2s ease;
+
 	}
+
 	.left-side {
 		width: 100%;
 	}
+	.show {
+		display: block;
+	}
+	/*for header*/
 	header nav {
 		margin-right: 50px;
 	}
@@ -306,11 +346,47 @@ main {
 		margin: 10px;
 	}
 	.hide {
-	display: none;
+		display: none;
 	}
 }
 
-@media (max-width: 800px) {
+@media (max-width: 880px) {
+	/*burger*/
+	nav .mainMenu {
+        height: 350px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 2;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #FFF;
+        transition: top .7s ease;
+        display: none;
+   }
+
+   nav .mainMenu .closeMenu {
+       display: block;
+       position: absolute;
+       top: 20px;
+       right: 70px;
+   }
+
+   nav .openMenu {
+       display: block;
+   }
+
+   nav .mainMenu li {
+   	margin: 20px;
+   }
+
+   nav .mainMenu li a:hover {
+       background: none;
+       background-color: #f3f3f3;  
+   }
+   /*main*/
 	.left-side {
 		display: flex;
     flex-direction: column;
@@ -326,16 +402,16 @@ main {
 		margin: 10px;
 	}
 	.img {
-		height: 41vw;
+		height: 43vw;
 		text-align: center;
 		margin-top: 10px;
 	}
 	.img img {
-		height: 41vw;
+		height: 43vw;
 	
 	}
 	header nav {
-		display: none;
+	
 	}
 	.logo {
 		margin-left: 25px;
@@ -348,13 +424,17 @@ main {
 
 @media (max-width: 600px) {
 	.img {
-		height: 39vw;
+		height: 42vw;
 		text-align: center;
 		margin-top: 10px;
 	}
 	.img img {
-		height: 39vw;
+		height: 42vw;
 	}
+	nav .mainMenu .closeMenu {
+   		right: 20px;
+
+   }
 }
 
 
