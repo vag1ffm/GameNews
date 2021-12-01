@@ -252,12 +252,12 @@ hr {
     
 	}
 	.img {
-		height: 10vw;
+		height: 11.5vw;
 		margin: 5px;
 		
 	}
 	.img img {
-		height: 10vw;
+		height: 11.5vw;
 	}
 
 	h2 {
@@ -281,11 +281,11 @@ hr {
 
 	}
 	.img {
-		height: 13.5vw;
+		height: 15vw;
 		margin-top: 10px;
 	}
 	.img img {
-		height: 13.5vw;
+		height: 15vw;
 	}
 
 
@@ -352,12 +352,12 @@ hr {
 		margin: 10px;
 	}
 	.img {
-		height: 19vw;
+		height: 21vw;
 		text-align: center;
 		margin-top: 10px;
 	}
 	.img img {
-		height: 19vw;
+		height: 21vw;
 	
 	}
 	.logo {
@@ -432,12 +432,12 @@ hr {
 		margin: 10px;
 	}
 	.img {
-		height: 43vw;
+		height: 45vw;
 		text-align: center;
 		margin-top: 10px;
 	}
 	.img img {
-		height: 43vw;
+		height: 45vw;
 	
 	}
 	header nav {
@@ -460,7 +460,7 @@ hr {
 	}
 }
 
-
+/*
 @media (max-width: 600px) {
 	.img {
 		height: 42vw;
@@ -474,7 +474,7 @@ hr {
    		right: 42px;
 
    }
-}
+}*/
 
 
 
