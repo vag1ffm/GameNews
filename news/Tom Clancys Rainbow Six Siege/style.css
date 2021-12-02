@@ -162,6 +162,7 @@ h1 {
 	padding: 15px 30px;
 	text-decoration: none;
 	border-radius: 20px;
+	color: #000;
 	border: 3px #000 solid;
 	transition: .3s;
 }
