@@ -385,7 +385,7 @@ h2 {
  
 @media (max-width: 1080px) {
 	main {
-		width: 95%;
+		width: 99%;
 	}
 	.logo {
 		margin-left: 100px;
@@ -401,6 +401,9 @@ h2 {
 	.news h1 {
 		font-size: 25px;
 	}
+	 .first {
+	 	width: 95%;
+	 }
 
 	.mini-discription {
 		display: flex;
@@ -412,9 +415,22 @@ h2 {
 	}
 
 	.right-foto {
-		width: 65vw;
+		width: 85vw;
 		float: left;
 		border-radius: 20px;
+	}
+
+	.media {
+		
+		width: 81vw;
+	}
+
+	.cell {
+		width: 81vw;
+		height: 49vw;
+		margin: 10px 30px;
+		overflow: hidden;
+		border-radius: 8px;
 	}
 
 	.second p {
