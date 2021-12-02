@@ -27,16 +27,12 @@ header {
 	z-index: 4;
 }
 
-.logo a {
-	text-decoration: none;
-	color: black;
-	font-weight: 700;
-	
+.logo img {
+	height: 60px;
+	border-radius: 10px;
 }
 
-.logo h2 {
-	
-}
+
 
 nav .openMenu {
     font-size: 2rem;
@@ -112,7 +108,6 @@ main {
 }
 
 .category {
-	background-color: ;
 	border-radius: 20px;
 
 }
@@ -135,12 +130,13 @@ main {
 }
 
 .ul li a {
+	transition: .3s;
 	cursor: pointer;
 	text-decoration: none;
 	color: black;
 	padding: 5px 10px;
 	border-radius: 20px;
-	border: 3px #f3f3f3 solid;
+	margin: 0px 5px;
 	background-color: #FFF;
 }
 
@@ -148,10 +144,10 @@ hr {
 	background-color: #000;
 }
 .ul li a:hover {
-	background-color: #f3f3f3;
+	background-color: #;
 }
 
-.ul li a:active {
+.ul li a:hover {
 	background-color: #000;
 	color: #FFF;
 }
@@ -446,8 +442,11 @@ hr {
 	.logo {
 		margin-left: 25px;
 	}
+	.logo img {
+		height: 50px;
+	}
 	.hide {
-	display: none;
+		display: none;
 	}
 
 	.left-side {
@@ -476,9 +475,25 @@ hr {
    }
 }*/
 
+/*INFORMATION.HTML*/
 
 
+.info-main {
+	background-color: #FFF;
+	border-radius: 20px;
+	width: 80%;
+	height: 550px;
 
+}
+
+.info-text {
+	background-color: red;
+	width: 90%;
+	height: 90%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
 
 
