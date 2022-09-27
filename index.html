@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="https://img.icons8.com/color/50/000000/controller.png" type=".png">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Game News</title>
+</head>
+<body>
+	<header>
+			<div class="logo">
+				<img src="img/logo.png" alt="">
+			</div>
+			<nav>
+				<div class="openMenu"><i class="fa fa-bars"></i></div>
+				<ul class="mainMenu">
+					<li><a href="index.html">Публикации</a></li>
+					<li><a target="_blank" href="https://t.me/Xalyava_Game_News">Телеграм канал</a></li>
+					<div class="closeMenu"><i class="fa fa-times"></i></div>
+                	<span class="icons">
+				</ul>	
+			</nav>
+	</header>
+	<div class="content">
+		<main>
+			<hr>
+			<div class="left-side">
+				<div class="category" >
+					<h3 onclick="showjanr()">Жанр</h3>
+					<div class="ul" id="janr">
+						<li><a class="button btn_type_all" data-filter="all">Все</a></li>
+						<li><a class="button btn_type_ekshn" data-filter="ekshn">Экшен</a></li>
+						<!-- <li><a>Приключение</a></li> -->
+						<li><a class="button btn_type_indi" data-filter="indi">Инди</a></li>
+						<!-- <li><a>Ролевая</a></li> -->
+						<li><a class="button btn_type_strateqiya" data-filter="strateqiya">Стратегия</a></li>
+						<li><a class="button btn_type_otkritiy" data-filter="otkritiy">Открытый мир</a></li>
+						<li><a class="button btn_type_shuter" data-filter="shuter">Шутер</a></li>
+						<li><a class="button btn_type_qolovolomka" data-filter="qolovolomka">Головоломка</a></li>
+						<li><a class="button btn_type_otpervoqo" data-filter="otpervoqo">От первого лица</a></li>
+						<!-- <li><a>Повествовательная</a></li> -->
+						<li><a class="button btn_type_simulator" data-filter="simulator">Симулятор</a></li>
+						<li><a class="button btn_type_kazualniye" data-filter="kazualniye">Казуальная</a></li>
+						<!-- <li><a>Пошаговая</a></li> -->
+						<li><a class="button btn_type_issledovaniya" data-filter="issledovaniya">Исследование</a></li>
+						<li><a class="button btn_type_xoror" data-filter="xoror">Хоррор</a></li>
+						<li><a class="button btn_type_platformer" data-filter="platformer">Платформер</a></li>
+						<!-- <li><a>Групповая</a></li> -->
+						<li><a class="button btn_type_vijivaniye" data-filter="vijivaniye">Выживание</a></li>
+						<!-- <li><a>Викторина</a></li>
+						<li><a>Строительство города</a></li>
+						<li><a>Стелс</a></li>
+						<li><a>Файтинг</a></li>
+						<li><a>Комедийная</a></li>
+						<li><a>Гонки</a></li>
+						<li><a>Roguelite</a></li> -->
+						<li><a class="button btn_type_kartochnaya" data-filter="kartochnaya">Карточная игра</a></li>
+						<!-- <li><a>Спортивная</a></li>
+						<li><a>Dungeon Crawler</a></li> -->
+					</div>
+				</div>
+			</div>
+			<div class="right-side">
+				<div class="news strateqiya">
+					<div class="img">
+						<a href=""><img src='https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5rssgtyVDmyIBmiIjZb2t9/645898db7d0d26752ba2d99b5f90ed20/hearder_1820px.jpg' alt="ubisoft"></a>
+					</div>
+					<div class="text">
+						<h2>Anno 1404 History Edition</h2>
+						<p class="description">Насладитесь захватывающим игровым процессом симуляторов градостроительства Anno 1602, Anno 1503, Anno 1701 и Anno 1404 вместе с дополнениями. Оцените усовершенствованные версии каждой игры со множеством изменений в разрешении до 4К.‎</p>
+						<p class="janr ekshn"><strong>Жанр:</strong>  Стратегия</p>
+					<div class="text-icon">
+						<p class="buyin"> Раздаётся в :</p>
+						<a href="https://www.ubisoft.com/ru-ru/game/anno/history-collection" target="_blank"><img alt="ubisoft" src="https://img.icons8.com/color/48/000000/ubisoft.png"/></a>
+						<br>
+					</div>
+					<p> C 7 декабря по - !</p>
+					</div>
+				</div>
+
+				<div class="news kazualniye qolovolomka">
+					<div class="img">
+						<a href=""><img src='img/7.jpg' alt="steam"></a>
+					</div>
+					<div class="text">
+						<h2>Box: The Game()</h2>
+						<p class="description">Box: The Game это веселая игра-головоломка, которая бросит вызов вашему мозгу, чтобы думать по-разному. Все кубики прикрепляются друг к другу, ваша цель - соответствовать отображаемой фигуре, чтобы перейти на следующий уровень‎</p>
+						<p class="janr ekshn"><strong>Жанр:</strong>  Казуальные игры, Инди </p>
+					<div class="text-icon">
+						<p class="buyin"> Раздаётся в :</p>
+						<a href="https://store.steampowered.com/app/879850/Box_The_Game/" target="_blank"><img alt="steam" src="https://img.icons8.com/ios-filled/50/000000/steam-circled.png"/></a>
+						<br>
+					</div>
+					<p>С 2 декабря по -!</p>
+					</div>
+				</div>
+
+				<div class="news simulator qolovolomka ">
+					<div class="img">
+						<a href="news/while True learn()/index.html"><img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/3a672d75182443.5c45eb5a65eec.png" alt="epic games"></a>
+					</div>
+					<div class="text">
+						<h2>while True: learn()</h2>
+						<p class="description">Вы играете за специалиста по нейросетям и машинному обучению, но ваш кот справляется с работой лучше. Теперь придётся решать головоломки, чтобы сконструировать переводчик с кошачьего. Заработайте денег, купите кошачьих нарядов и узнайте, как же обучаются машины!</p>
+						<p class="janr ekshn"><strong>Жанр:</strong> Симулятор, Головоломка </p>
+					<div class="text-icon">
+						<p class="buyin"> Раздаётся в :</p>
+						<a href="https://www.epicgames.com/store/ru/p/while-true-learn" target="_blank"><img alt="epic games" src="https://img.icons8.com/material-rounded/50/000000/epic-games.png"/></a>
+						<br>
+					</div>
+					<p>С 2-9 декабря!</p>
+					</div>
+				</div>
+
+				<div class="news ekshn xoror vijivaniye">
+					<div class="img">
+						<a href="news/Dead by Daylight/index.html"><img src="https://cdn1.epicgames.com/offer/611482b8586142cda48a0786eb8a127c/EGS_DeadbyDaylight_BehaviourInteractive_S1_2560x1440-9790e96a8d2a08325bd7b4dc70148127?h=480&resize=1&w=854" alt="epic games"></a>
+					</div>
+					<div class="text">
+						<h2>Dead by Daylight</h2>
+						<p class="description">Dead by Daylight — это многопользовательская игра в жанре ужасов в режиме 4 против 1, где один игрок берёт на себя роль жестокого Убийцы, а четыре других игрока являются Выжившими, пытающимися сбежать от убийцы.</p>
+						<p class="janr ekshn"><strong>Жанр:</strong> Экшен, Хоррор, Выживание </p>
+					<div class="text-icon">
+						<p class="buyin"> Раздаётся в :</p>
+						<a href="https://www.epicgames.com/store/ru/p/dead-by-daylight" target="_blank"><img alt="steam" src="https://img.icons8.com/material-rounded/50/000000/epic-games.png"/></a>
+						<br>
+					</div>
+					<p>С 2-9 декабря!</p>
+					</div>
+				</div>
+
+				<div class="news ekshn shuter strateqiya">
+					<div class="img">
+						<a href="news/Tom Clancys Rainbow Six Siege/index.html"><img src="img/6.jpg" alt="steam"></a>
+					</div>
+					<div class="text">
+						<h2>Tom Clancy's Rainbow Six® Siege со скидкой в 60%</h2>
+						<p class="description">В Tom Clancy's Rainbow Six® Осада игроков ждут напряжённые бои на коротких дистанциях и открытом пространстве, где стратегия и командное взаимодействие играют важнейшую роль.</p>
+						<p class="janr ekshn"><strong>Жанр:</strong> Экшен, Шутер, Стратегия </p>
+					<div class="text-icon">
+						<p class="buyin"> Со скидкой в 60% в :</p>
+						<a href="https://store.steampowered.com/app/359550/Tom_Clancys_Rainbow_Six_Siege/" target="_blank"><img alt="steam" src="https://img.icons8.com/ios-filled/50/000000/steam-circled.png"/></a>
+						<br>
+					</div>
+					<p>С 24 ноября до 1 декабря!</p>
+					</div>
+				</div>
+
+				<div class="news simulator otkritiy otpervoqo">
+					<div class="img">
+						<img src="img/5.jpg" alt="epic games">
+					</div>
+					<div class="text">
+						<h2>theHunter: Call of the Wild™</h2>
+						<p class="description">Познакомьтесь с захватывающим симулятором охоты и станьте частью живописного и реалистичного мира. Погрузитесь в атмосферную одиночную кампанию или отправляйтесь на охоту вместе с друзьями.</p>
+						<p class="janr"><strong>Жанр:</strong> Симулятор, Открытый мир, От первого лица </p>
+					<div class="text-icon">
+						<p class="buyin"> Раздаётся в :</p>
+						<a href="https://www.epicgames.com/store/ru/p/thehunter-call-of-the-wild" target="_blank"><img alt="epic-games" src="https://img.icons8.com/material-rounded/50/000000/epic-games.png"/></a>
+						<br>
+					</div>
+					<p>С 24 ноября до 1 декабря!</p>
+					</div>
+				</div>
+				<div class="news platformer indi">
+					<div class="img">
+						<img src="img/4.jpg" alt="epic games">
+					</div>
+					<div class="text">
+						<h2>Never Alone (Kisima Ingitchuna)</h2>
+						<p class="description">Окунитесь в эпическое путешествие Нуны (Nuna) и Лиса (Fox), стремящихся найти источник непрекращающейся метели, которая может разрушить весь их мир.</p>
+						<p class="janr"><strong>Жанр:</strong> Платформер, Инди </p>
+					<div class="text-icon">
+						<p class="buyin"> Раздаётся в :</p>
+						<a href="https://www.epicgames.com/store/ru/p/never-alone-kisima-ingitchuna" target="_blank"><img alt="epic-games" src="https://img.icons8.com/material-rounded/50/000000/epic-games.png"/></a>
+					</div>
+					<p>С 17-24 ноября!</p>
+					</div>
+				</div>
+				<div class="news issledovaniya otpervoqo">
+					<div class="img"><img src="img/3.jpg" alt="epic games"></div>
+					<div class="text">
+						<h2>KID A MNESIA EXHIBITION</h2>
+						<p class="description">Перевёрнутая цифровая/аналоговая вселенная, созданная из оригинальных зарисовок и записей в честь совершеннолетия альбомов Kid A и Amnesiac группы Radiohead.</p>
+						<p class="janr"><strong>Жанр:</strong> Исследование, От первого лица</p>
+					<div class="text-icon">
+						<p class="buyin"> Раздаётся в :</p> 
+						<a href="https://www.epicgames.com/store/ru/p/kid-a-mnesia-exhibition" target="_blank"><img alt="epic-games" src="https://img.icons8.com/material-rounded/50/000000/epic-games.png"/></a>	
+					</div>
+					<p>С 17-24 ноября!</p>
+					</div>
+				</div>
+				<div class="news kartochnaya">
+					<div class="img">
+						<img src="img/2.png" alt="epic games">
+					</div>
+					<div class="text">
+						<h2>Guild of Dungeoneering</h2>
+						<p class="description">Guild of Dungeoneering Ultimate Edition — это полностью перестроенная и обновлённая версия пошаговой игры об исследовании подземелий с одной важной особенностью: вы не управляете самим героем, а строите подземелье вокруг него.</p>
+						<p class="janr"><strong>Жанр:</strong> Карточная игра</p>
+						<div class="text-icon">
+							<p  class="buyin"> Раздаётся в :</p> 
+							<a href="https://www.epicgames.com/store/ru/p/guild-of-dungeoneering-ultimate-edition" target="_blank"><img alt="epic-games" src="https://img.icons8.com/material-rounded/50/000000/epic-games.png"/></a>
+						</div>
+						<p>С 17-24 ноября!</p>
+					</div>
+				</div>
+			</div>
+			
+			
+		</main>
+	</div>
+
+	<script type="text/javascript" src="script.js">
+		
+	</script>
+</body>
+</html>
